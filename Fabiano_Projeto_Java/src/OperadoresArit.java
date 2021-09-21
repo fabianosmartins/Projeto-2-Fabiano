@@ -11,6 +11,7 @@ public class OperadoresArit {
 	Integer operacao;
 	String OP ="";
 	
+	
 	valor1   = Double.parseDouble(JOptionPane.showInputDialog("Digite o primeiro valor .:"));
 	operacao = Integer.parseInt(JOptionPane.showInputDialog("Operação [1 = + | 2 = - | 3 = * | 4 = /]: "));
 	valor2   = Double.parseDouble(JOptionPane.showInputDialog("Digite o segundo valor .:"));
